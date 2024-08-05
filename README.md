@@ -24,11 +24,15 @@ Upload the VHD image to our Azure Storage Container
 Create a disk from VHD image
 Create a virtual machine from the new disk
 
-Files in this repo:
+### Files in this repo:
 `Containerfile` to build a new local container image from a given bootc container adding Azure agent configuration.
+
 `setup-azure-img.sh` includes some specific cloud packages, Azure agent and basic config.
-`bootc-image-builder` convert the container image in a RAW disk image.
+
+`bootc-image-builder` converts the container image in a RAW bootc disk image.
+
 `config.toml` used by boot-image-builder as a custom config file for injecting a hardcoded user/group/ssh public key
+
 `azure-convert.sh` takes the RAW image converts it to VHD, uploads it, creates a disk file and fires up a vm using it.
 
 
