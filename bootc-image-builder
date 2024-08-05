@@ -1,0 +1,15 @@
+#!/bin/bash
+podman run \
+    --rm \
+    -it \
+    --privileged \
+    --pull=newer \
+    --security-opt label=type:unconfined_t \
+    -v $(pwd)/config.toml:/config.toml:ro \
+    -v $(pwd)/output:/output \
+    -v /var/lib/containers/storage:/var/lib/containers/storage \
+    -v /usr/lib/containers/storage:/usr/lib/containers/storage \
+    quay.io/centos-bootc/bootc-image-builder:latest \
+    --type raw \
+    --local \
+    localhost/mybootc:latest  

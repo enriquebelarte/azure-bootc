@@ -1,0 +1,5 @@
+[[customizations.user]]
+name = "myuser"
+password = "mypass"
+key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDsNT9liV1LqlzdDXe9MhYtZeXb41Ad5TfKTz92K728ot0FbmuTp2/U/JDTgxUcAQsi+jOGlAIBJmEqJTBGoWENc+BZJ/SOXO4KD7wesjOIC5xW9km9fEY0lDsOjsZ3raKhhRl9weI+dHXE+PCaS/MCkLOw1lnGgTOBEwQfRESZVFSnQTILa/OlFRUbVqzOQW7Mj+7/mGDH2ebU7U0eG4FdCWWjt7/n0+9XhQ/oju0aBG2UqKEjGMaebiZWx1WmK5MqhY+F+n55inuHqCfIlYWz8fjsWZ9lItEerqTJLmtur0q0V752ZPuEOhIBIUEAKKjye4t3LLtKFkFYToiqQrAQXqvN16piOLBfqJ9DUVjqBW/nasN8biDQsNDJxtzZ6TPjbg2ArdJ9jBff4nxUiE+qHeS2aaQvYZBELRsJRg0eZuscyKzyvK5137777Y3qe2k8+SdbySmidIWiSwxy5nQ7t8ok1PmoALkGLb6Y41EReVHoWImYCXtDneYdsnO1zs= ebelarte"
+groups = [ "wheel" ]
